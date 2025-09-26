@@ -141,7 +141,7 @@ def deploy_to_database(fact_table, dim_tables):
     # Database configuration
     server = "35.232.210.16"
     database = 'TestDB'
-    username = 'mssql-password'
+    username = 'SA'
     password = os.getenv('DB_PASSWORD', 'Passw0rd123456')
     
     try:
